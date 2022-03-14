@@ -6,12 +6,27 @@
   "note2": "To make a custom theme for Hyperdactyl, create a folder inside /themes/ and change the value above",
   "website": {
     "port": 8080,
+    "warning": "To run Hyperdactyl on a domain, you need to setup a reverse proxy, the guide is on our GitHub",
     "secret": "Example Secret"
   },
   "guildblacklist": {
     "note": "Stop users using your host if they are in a certain discord server",
     "guilds": ["ServerID", "ServerID"]
   },
+  "changelog": {
+    "first": {
+      "version": "1.0.0",
+      "log": "Added Hyperdactyl Dashboard"
+     },
+     "second": {
+      "version": "2.0.0",
+      "log": "Coming Soon"
+     },
+     "third": {
+       "version": "3.0.0",
+       "log": "You can edit this in settings.json"
+     }
+     },
 "plans": {
   "note": "This allows you to put plans easily into Hyperdactyl.",
   "enabled": true,

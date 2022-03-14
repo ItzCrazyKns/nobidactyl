@@ -66,8 +66,7 @@ body {
   line-height: 1.5;
   color: #6c757d;
   text-align: left;
-  background-color: #ffffff; 
-}
+  background-color: #f8f9fa; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -1826,12 +1825,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #00ffbb;
-  border-color: #00ff6a; }
+  background-color: #1b68ff;
+  border-color: #1b68ff; }
   .btn-primary:hover {
-    color: #00ffbb;
-    background-color: #eeeeee17;
-    border-color: #000000; }
+    color: #ffffff;
+    background-color: #0052f4;
+    border-color: #004ee7; }
   .btn-primary:focus, .btn-primary.focus {
     color: #ffffff;
     background-color: #0052f4;
